@@ -1,0 +1,5 @@
+PX4 version information
+2026-11-17T01:18:50+05:00
+main
+722ebc963555189314a8ce77b426ed074ffa6dae
+v1.18.0-beta1-1589-g722ebc9635

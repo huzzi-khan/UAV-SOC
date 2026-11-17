@@ -1,0 +1,31 @@
+1. Px4 and gazeebo:
+
+cd ~/PX4-Autopilot
+
+PX4_GZ_SIM_RENDER_ENGINE=ogre make px4_sitl gz_x500
+
+2. QGroundControl:
+
+~/Applications/QGroundControl.AppImage
+
+3. wireshark:
+wireshark ~/uav-soc/evidence/pcaps/normal/normal_flight_01.pcap
+
+4. pcap capture:
+sudo tcpdump -i lo -nn \
+  -w ~/uav-soc/evidence/pcaps/normal/normal_flight_01.pcap \
+  'udp port 14550'
+  
+5. pcap packet capture verification:
+
+capinfos ~/uav-soc/evidence/pcaps/normal/normal_flight_01.pcap
+
+6. filters:
+
+Message		Wireshark display filter
+All MAVLink	mavlink_proto
+HEARTBEAT	mavlink_proto.msgid == 0
+ATTITUDE	mavlink_proto.msgid == 30
+GPS_RAW_INT	mavlink_proto.msgid == 24
+GLOBAL_POSITION_INT	mavlink_proto.msgid == 33
+RAW_IMU	mavlink_proto.msgid == 27

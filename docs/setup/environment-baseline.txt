@@ -1,0 +1,21 @@
+UAV SOC Environment Baseline
+2026-11-17T01:03:03+05:00
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.5 LTS
+Release:	24.04
+Codename:	noble
+
+7.0.0-43-generic
+
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       1.4Gi       3.9Gi        42Mi       2.8Gi       6.3Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+4
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        40G   11G   27G  30% /
+
+git version 2.43.0
+Python 3.12.3

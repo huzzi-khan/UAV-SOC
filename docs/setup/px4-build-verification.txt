@@ -1,0 +1,11 @@
+Gazebo version:
+Gazebo Sim, version 8.15.0
+Copyright (C) 2018 Open Source Robotics Foundation.
+Released under the Apache 2.0 License.
+
+
+PX4 source revision:
+722ebc963555189314a8ce77b426ed074ffa6dae
+
+SITL binary:
+-rwxrwxr-x 1 ubuntu ubuntu 60M Nov 17 01:36 build/px4_sitl_default/bin/px4
